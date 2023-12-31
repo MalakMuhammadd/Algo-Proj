@@ -19,7 +19,7 @@ def max_subarray_condition(A, L, R):
             max4 = sum2
     return max(max1, max2, max3 + max4)
 
-# Example usage:
+# Example:
 A = [3,-5,2,-1,5,-6,1,-2]
 result = max_subarray_condition(A, 0, len(A)-1)
 print(result)
